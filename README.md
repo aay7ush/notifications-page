@@ -12,7 +12,7 @@ Building realistic projects to improve my front-end skills.
 
 ### Links
 
-- Live Site URL: [Notifications page](https://faq-acc0rdion.netlify.app/)
+- Live Site URL: [Notifications page](https://n0tifications-page.netlify.app/)
 
 ## Built with
 
