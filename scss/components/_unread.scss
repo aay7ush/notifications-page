@@ -1,0 +1,39 @@
+.unread__notifications {
+  display: grid;
+  gap: 1rem;
+
+  .unread {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background-color: var(--clr-grayish-blue-100);
+    border-radius: 10px;
+    padding: 1rem;
+
+    .avatar {
+      max-width: 50px;
+    }
+
+    .notification {
+      .body::after {
+        content: "";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: var(--clr-red);
+        margin-left: 0.3rem;
+      }
+
+      .time {
+        color: var(--clr-grayish-blue-400);
+      }
+    }
+  }
+
+  .selected-after {
+    .notification .body::after {
+      display: none;
+    }
+  }
+}
